@@ -19,5 +19,5 @@ type API interface {
 	//非个人，整个交易所的交易记录
 	GetTrades(currencyPair CurrencyPair, since int64) ([]Trade, error)
 	sdfsdf
-	GetExchangeName() string
+	GetExchangeName() stringasdasd
 }
