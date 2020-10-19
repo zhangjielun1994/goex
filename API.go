@@ -18,6 +18,6 @@ type API interface {
 	GetKlineRecords(currency CurrencyPair, period, size, since int) ([]Kline, error)
 	//非个人，整个交易所的交易记录
 	GetTrades(currencyPair CurrencyPair, since int64) ([]Trade, error)
-
+	sdfsdf
 	GetExchangeName() string
 }
