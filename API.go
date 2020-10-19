@@ -12,7 +12,7 @@ type API interface {
 	GetUnfinishOrders(currency CurrencyPair) ([]Order, error)
 	GetOrderHistorys(currency CurrencyPair, currentPage, pageSize int) ([]Order, error)
 	GetAccount() (*Account, error)
-
+	jhkhk
 	GetTicker(currency CurrencyPair) (*Ticker, error)
 	GetDepth(size int, currency CurrencyPair) (*Depth, error)
 	GetKlineRecords(currency CurrencyPair, period, size, since int) ([]Kline, error)
